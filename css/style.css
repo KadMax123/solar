@@ -1,0 +1,480 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*CLASS HEADER*/
+.header_logotype {
+    background-image: url(../img/img6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+.header_top {
+    text-align: center;
+    padding-top: 76px;
+    padding-bottom: 0;
+}
+
+.header_links {
+    list-style: none;
+    text-align: center;
+    display: block;
+
+}
+
+.header_links h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 87px;
+    font-variant: small-caps;
+}
+
+.header_links h2 {
+    font-size: 42px;
+    line-height: 57px;
+}
+
+.header_links h6 {
+    padding-top: 110px;
+    padding-bottom: 3px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+.header_text {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+    line-height: 25px;
+}
+
+.header_link_write {
+    margin-top: 110px;
+}
+
+.header_write {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.social_networks {
+    margin: 0 auto;
+    width: 160px;
+    height: 35px;
+    position: relative;
+    margin-top: 270px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.social_network {
+    text-decoration: none;
+    position: absolute;
+}
+
+/*END CLASS HEADER*/
+
+
+
+
+
+/*CLASS SERVICES AND FIVE STEPS*/
+
+.services_absolut_all,
+.five_steps_absolut_all {
+    margin-top: 150px;
+    height: 1000px;
+}
+
+.five_steps_absolut_all {
+    height: 730px;
+}
+
+.services_container,
+.five_steps_container {
+    margin: 0 auto;
+    width: 1200px;
+    height: 760px;
+}
+
+.five_steps_container {
+    height: 730px;
+}
+
+.services_h,
+.five_steps_h {
+    margin-left: 20px;
+    color: #868585;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.services_all,
+.five_steps_all {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.services_left,
+.five_steps_left {
+    width: 510px;
+    margin-left: 0;
+}
+
+.five_steps_left {
+    width: 600px;
+    height: 730px;
+}
+
+.services_title_box,
+.five_steps_title_box {
+    width: 510px;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.services_title,
+.five_steps_title {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.five_steps_title {
+    margin-top: -5px;
+}
+
+.services_text,
+.five_steps_text {
+    margin-bottom: 50px;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.five_steps {
+    width: 1200px;
+    height: 730px;
+    display: block;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.five_steps_all h1 {
+    margin-top: 0;
+    display: block;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #868585;
+}
+
+.five_steps_text_num {
+    font-size: 14px;
+    line-height: 19px;
+    color: #868585;
+    margin-bottom: 10px;
+}
+
+.five_steps_text {
+    margin-bottom: 47px;
+}
+
+/*END CLASS SERVICES AND FIVE STEPS*/
+
+
+
+
+/*CLASS GREEN_RATE*/
+
+.green_rate_all {
+    display: flex;
+    justify-content: center;
+}
+
+.green_rate_right,
+.green_rate_left {
+    width: 600px;
+}
+
+.green_rate_left {
+    margin-right: 90px;
+}
+
+.green_rate_text {
+    margin-top: -70px;
+    margin-bottom: 60px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #868585;
+}
+
+.green_rate_list_all {
+    display: flex;
+    list-style: none;
+    justify-content: left;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    padding-left: 0;
+}
+
+.green_rate_list {
+    padding-right: 40px;
+}
+
+.green_rate_left_box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.green_rate_left_box p {
+    margin-left: 40px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    width: 235px;
+    height: 115px;
+}
+
+.green_rate_left_box:after {
+    content: "";
+    /* ЭТО СВОЙСТВО ОТВЕЧАЕТ ЗА СЛАЙДЕР В "ЗЕЛЁНЫЙ ТАРИФ*/
+}
+
+.green_rate_left_lists {
+    display: flex;
+    margin-top: 100px;
+}
+
+.green_rate_left_list {
+    list-style: none;
+    padding: 0;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.green_rate_left_list_two {
+    margin-left: 40px;
+}
+
+.green_rate_right h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+/*END CLASS GREEN_RATE*/
+
+
+
+
+
+
+/*CLASS SOLAR_PLANT*/
+.solar_plant {
+    background-image: url(../img/img4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    margin-top: 150px;
+}
+
+.solar_plant_box {
+    width: 673px;
+    height: 228px;
+    margin: 0 auto;
+    padding: 90px 0 144px 0;
+}
+
+.solar_plant_text {
+    font-size: 42px;
+    line-height: 57px;
+    text-align: center;
+    color: white;
+}
+
+/*END CLASS SOLAR_PLANT*/
+
+
+
+
+/*CLASS OUR_CLIENTS*/
+
+.our_clients h1 {
+    margin-top: 150px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #868585;
+}
+
+.our_clients_block {
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+}
+
+.our_clients_left {
+    width: 510px;
+    height: 370px;
+}
+
+.our_clients_left:after {
+    content: "";
+    /*Это свойство отвечает за слайдер после картинки в "Наши Услуги"*/
+}
+
+.our_clients_right {
+    display: block;
+    text-align: left;
+    width: 545px;
+}
+
+.our_clients_right h2 {
+    margin-bottom: 30px;
+}
+
+.our_clients_adress {
+    text-decoration: none;
+    list-style: none;
+}
+
+.our_clients_adres {
+    font-size: 14px;
+    line-height: 19px;
+    margin-top: 15px;
+}
+
+.our_clients_write {
+    display: block;
+    margin-top: 120px;
+    text-decoration: none;
+    color: black;
+}
+
+/*END CLASS OUR_CLIENTS*/
+
+
+
+
+
+/*CLASS FOOTER*/
+
+.footer {
+    margin-top: 220px;
+    background-image: url(../img/footer.png);
+    color: white;
+    height: 730px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.footer_all {
+    padding-top: 70px;
+}
+
+.footer_top {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer_left {
+    display: block;
+}
+
+.footer_forms {
+    padding-left: 0px;
+}
+
+.footer_form {
+    display: block;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    border-bottom: 1px solid white;
+    width: 510px;
+}
+
+.footer_form::placeholder {
+    color: white;
+}
+
+.footer_forms h1,
+.footer_right h1 {
+    margin-bottom: 60px;
+}
+
+.footer_write {
+    margin-top: 120px;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    line-height: 25px;
+    border: none;
+}
+
+.footer_contacts {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer_contact,
+.footer_form {
+    margin-bottom: 30px;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.footer_bottom {
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 146px;
+}
+
+.social {
+    display: flex;
+    list-style: none;
+}
+
+.footer_social {
+    margin-left: 20px;
+}
+
+/*END CLASS FOOTER*/
